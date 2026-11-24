@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f7f3ef">
+<title>For Juni, Always</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap');
+:root{--cream:#f7f3ef;--ink:#211d1d;--rose:#c97886;--wine:#451f2b;--muted:#8b7d7d;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-snap-type:y proximity}body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--sans);overflow-x:hidden}button{font:inherit;cursor:pointer}section{min-height:100svh;padding:10vh 8vw;display:flex;flex-direction:column;justify-content:center;position:relative;scroll-snap-align:start;overflow:hidden}.eyebrow{text-transform:uppercase;letter-spacing:.22em;font-size:.7rem;color:var(--muted);margin-bottom:1.5rem}.big{font:500 clamp(3rem,8vw,8rem)/.98 var(--serif);letter-spacing:-.055em;max-width:1050px;margin:0}.serif{font-family:var(--serif)}.sub{font-size:clamp(1rem,1.6vw,1.25rem);line-height:1.8;color:#716566;max-width:650px}.center{align-items:center;text-align:center}.center .sub{margin-inline:auto}.scrollhint{position:absolute;bottom:35px;left:50%;transform:translateX(-50%);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);animation:bob 2s infinite}@keyframes bob{50%{transform:translate(-50%,8px)}}.reveal{opacity:0;transform:translateY(35px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1)}.reveal.visible{opacity:1;transform:none}.dark{background:#1d171a;color:#fbf5f0}.dark .sub,.dark .eyebrow{color:#c1aeb1}.rose{background:#ead8d5}.wine{background:var(--wine);color:#fff5f2}.wine .sub{color:#e4cbd0}.pill{border:1px solid currentColor;background:transparent;color:inherit;padding:14px 22px;border-radius:99px;transition:.25s}.pill:hover{background:var(--ink);color:white;border-color:var(--ink)}.dark .pill:hover,.wine .pill:hover{background:#fff;color:var(--wine)}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:2rem}.equation{font:500 clamp(5rem,15vw,13rem)/1 var(--serif);letter-spacing:-.07em;margin:1rem 0}.answerrow{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}.answer{min-width:100px;padding:15px 24px;border-radius:16px;border:1px solid #d8c6c5;background:#fffaf7;color:var(--ink);font-size:1.15rem}.answer:hover{border-color:var(--rose);transform:translateY(-2px)}.photo-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:3rem}.photo{background:#e9dfda;border-radius:18px;min-height:260px;overflow:hidden;position:relative}.photo img{width:100%;height:100%;min-height:260px;object-fit:cover;display:block;transition:transform .8s}.photo:hover img{transform:scale(1.04)}.photo figcaption{position:absolute;bottom:0;left:0;right:0;padding:35px 16px 16px;color:white;background:linear-gradient(transparent,#211d1dbb);font-size:.85rem}.photo .placeholder{height:100%;min-height:260px;display:grid;place-items:center;color:#8d7776;text-align:center;padding:20px;font-size:.85rem}.letter{max-width:720px;background:#fffaf7;color:#34272a;padding:clamp(25px,6vw,65px);border-radius:8px;box-shadow:0 25px 80px #12090c33;text-align:left;transform:rotate(-1deg)}.letter p{font:clamp(1.05rem,1.8vw,1.3rem)/1.9 var(--serif)}.hidden{display:none!important}.progress{height:4px;background:#ffffff30;border-radius:9px;overflow:hidden;margin:1.2rem 0 2rem}.progress span{display:block;height:100%;background:var(--rose);width:0;transition:width .5s}.quizbox{width:min(680px,100%);padding:clamp(24px,5vw,48px);background:#fffaf7;color:var(--ink);border-radius:24px;text-align:left;box-shadow:0 25px 80px #12090c20}.quizbox h3{font:500 clamp(1.7rem,4vw,2.7rem)/1.2 var(--serif);margin:0 0 1.5rem}.choices{display:grid;gap:10px}.choice{border:1px solid #e1d4d1;border-radius:13px;background:transparent;padding:15px;text-align:left;color:var(--ink)}.choice.selected{border-color:var(--rose);background:#f5e7e5}.feedback{min-height:28px;color:#98616c;margin-top:14px;font-size:.9rem}.footer-note{font:italic 1.4rem var(--serif);color:#e5c8ce;margin-top:2rem}.heart{font-size:4rem;border:0;background:none;filter:grayscale(1);transition:.5s}.heart.loved{filter:none;transform:scale(1.18)}.tiny{font-size:.8rem;color:var(--muted);line-height:1.7}.memoryline{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-top:2rem}.memoryline span{border:1px solid #c9b4b3;border-radius:99px;padding:10px 16px;font-size:.85rem}
+@media(max-width:760px){section{padding:12vh 7vw}.photo-grid{grid-template-columns:repeat(2,1fr)}.photo,.photo img,.photo .placeholder{min-height:210px}.big{font-size:clamp(3.2rem,14vw,6rem)}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<section class="center" id="top">
+  <div class="eyebrow reveal">A little corner of the internet</div>
+  <h1 class="big reveal">Hey, Juni<span style="color:var(--rose)">.</span></h1>
+  <p class="sub reveal">I made something for you. No pressure, no expectations. Just a few things I wanted you to know.</p>
+  <div class="scrollhint">Scroll a little ↓</div>
+</section>
+
+<section>
+  <div class="eyebrow reveal">Before anything else</div>
+  <h2 class="big reveal">I know I haven't always made things easy.</h2>
+  <p class="sub reveal">And I don't want to rush past how you feel just because I wish things were okay. You deserve to feel heard, understood, and cared for, even when we're figuring things out.</p>
+</section>
+
+<section class="rose">
+  <div class="eyebrow reveal">A proper apology</div>
+  <h2 class="big reveal">I'm sorry for the ways I've hurt you.</h2>
+  <p class="sub reveal">I know an apology doesn't undo something or magically make it stop hurting. I don't expect you to forget things on command. I want to understand what hurt you, take responsibility for my part, and let my actions speak more clearly than another paragraph ever could.</p>
+  <p class="sub reveal">Your feelings aren't an inconvenience to me, Juni. I care about them. I care about you.</p>
+</section>
+
+<section class="center dark">
+  <div class="eyebrow reveal">Our very questionable mathematics</div>
+  <div class="equation reveal">1 + 1 = <span style="color:#d98b9a">?</span></div>
+  <p class="sub reveal">There is only one answer in this little universe of ours.</p>
+  <div class="answerrow reveal">
+    <button class="answer" onclick="equationAnswer(2)">2</button>
+    <button class="answer" onclick="equationAnswer(3)">3</button>
+    <button class="answer" onclick="equationAnswer(11)">11</button>
+  </div>
+  <p id="equationReply" class="footer-note" aria-live="polite"></p>
+</section>
+
+<section>
+  <div class="eyebrow reveal">The little things</div>
+  <h2 class="big reveal">Some things only make sense to us.</h2>
+  <p class="sub reveal">Our jokes, our random conversations, the tiny things that would sound completely ridiculous if we tried explaining them to anyone else. I wouldn't trade those little pieces of our world.</p>
+  <div class="memoryline reveal"><span>1 + 1 = 3</span><span>Our own little universe</span><span>More inside jokes to come</span></div>
+</section>
+
+<section class="rose">
+  <div class="eyebrow reveal">A few pieces of us</div>
+  <h2 class="big reveal">Little moments. Big feelings.</h2>
+  <div class="photo-grid">
+    <figure class="photo"><img src="assets/photos/juni-photo-1.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="placeholder" style="display:none">Add juni-photo-1.jpg</div><figcaption>Our favourite kind of chaos</figcaption></figure>
+    <figure class="photo"><img src="assets/photos/juni-photo-2.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="placeholder" style="display:none">Add juni-photo-2.jpg</div><figcaption>A moment worth keeping</figcaption></figure>
+    <figure class="photo"><img src="assets/photos/juni-photo-3.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="placeholder" style="display:none">Add juni-photo-3.jpg</div><figcaption>One of our little memories</figcaption></figure>
+    <figure class="photo"><img src="assets/photos/juni-photo-4.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="placeholder" style="display:none">Add juni-photo-4.jpg</div><figcaption>Just because it's you</figcaption></figure>
+    <figure class="photo"><img src="assets/photos/juni-photo-5.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="placeholder" style="display:none">Add juni-photo-5.jpg</div><figcaption>A screenshot I'll keep</figcaption></figure>
+    <figure class="photo"><img src="assets/photos/juni-photo-6.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="placeholder" style="display:none">Add juni-photo-6.jpg</div><figcaption>Another little piece of us</figcaption></figure>
+    <figure class="photo"><img src="assets/photos/juni-photo-7.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="placeholder" style="display:none">Add juni-photo-7.jpg</div><figcaption>The kind of memory that stays</figcaption></figure>
+    <figure class="photo"><img src="assets/photos/juni-photo-8.jpg" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="placeholder" style="display:none">Add juni-photo-8.jpg</div><figcaption>Us, in our own way</figcaption></figure>
+  </div>
+</section>
+
+<section class="dark center" id="puzzle">
+  <div class="eyebrow reveal">A tiny us-quiz</div>
+  <h2 class="big reveal">How well do you remember our little world?</h2>
+  <p class="sub reveal">Five tiny questions. No grades, no pressure. Just for fun.</p>
+  <div class="quizbox reveal">
+    <div class="eyebrow" id="qCount">QUESTION 1 OF 5</div>
+    <div class="progress"><span id="qProgress"></span></div>
+    <h3 id="question">In our world, what does 1 + 1 equal?</h3>
+    <div class="choices" id="choices"></div>
+    <div class="feedback" id="feedback" aria-live="polite"></div>
+    <button class="pill" id="nextQuestion" disabled style="opacity:.45">That's my answer</button>
+  </div>
+</section>
+
+<section class="center">
+  <div class="eyebrow reveal">A little reminder</div>
+  <h2 class="big reveal">Things I never want you to doubt.</h2>
+  <p class="sub reveal">That I care about you. That your feelings matter. That I don't take the little things we share for granted. And that I want to keep learning how to love you better.</p>
+  <button class="heart reveal" id="heart" aria-label="Tap the heart">❤️</button>
+  <p class="tiny reveal" id="heartText">Tap the heart. It gets a little brighter.</p>
+</section>
+
+<section class="center wine">
+  <div class="eyebrow reveal">One last thing</div>
+  <h2 class="big reveal">I can't promise I'll never make mistakes.</h2>
+  <p class="sub reveal">But I can promise that I'll keep trying to listen better, understand more, and love you with more care.</p>
+  <button class="pill reveal" id="letterButton">Open your letter ♥</button>
+  <div class="letter hidden" id="letter">
+    <div class="eyebrow">For Juni, always</div>
+    <p>Juni,</p>
+    <p>I know things haven't been perfect, and I know there are moments I wish I could handle differently. I don't want to brush those moments aside or ask you to be okay before you are.</p>
+    <p>I love the little world we've made together the random conversations, the jokes that make no sense to anyone else, and especially our very accurate equation that 1 + 1 = 3.</p>
+    <p>You matter to me. Not just when things are easy, but when we have to slow down, listen, and figure things out. I'm sorry for the times I haven't made you feel that enough. I want to do better, not just say it.</p>
+    <p>I know the past few days havent been the best for the both of us but I care about you more than us and I know sometimes my words hurt you and it maybe too late to fix what we had but its not too late to build something better than what we had.</p>
+    <p>There's no timer on this, and you don't owe me an instant response. I just wanted you to have these words.</p>
+    <p class="serif" style="font-style:italic">I love you, Juni. And I always will my natkhat gal.</p>
+  </div>
+</section>
+<footer style="background:#451f2b;color:#e4cbd0;text-align:center;padding:35px 20px;font-size:.75rem;letter-spacing:.12em">MADE WITH LOVE, FOR JUNI ♥</footer>
+<script src="script.js"></script>
+</body></html>
